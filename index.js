@@ -41,7 +41,7 @@ app.get("/api/products", (req, res) => {
     res.status(404).send({ message: e.message });
   }
 });
-app.get("/api/product", (req, res) => {
+app.post("/api/product", (req, res) => {
   const { id, category, subCategory } = req.body;
   try {
     const product = data.products[category][subCategory][id];
