@@ -20,7 +20,7 @@ app.get("/api/categories", (req, res) => {
     res.status(404).send({ message: e.message });
   }
 });
-app.get("/api/products-by-category", (req, res) => {
+app.post("/api/products-by-category", (req, res) => {
   const { category } = req.body;
   try {
     const products = data.products[category];
