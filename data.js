@@ -1,10 +1,30 @@
 export const data = {
   categories: [
-    "Fresh Fruits",
-    "Vegetables",
-    "Meat and Chicken",
-    "Sea Food",
-    "Drinks",
+    {
+      title: "Fresh Fruits",
+      photo:
+        "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F04%2FBlackberry-Fruit-PNG-Image-180x180.png&f=1&nofb=1&ipt=d74cef814ea66a5257cc40e225b6468e2a9837f54f9d1003dec5c86967b4e2d0&ipo=images",
+    },
+    {
+      title: "Vegetables",
+      photo:
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F42%2Ffb%2F9e%2F42fb9e23d2666aa6d4093a86ac42daf9.png&f=1&nofb=1&ipt=c87fb708f1b803a6445697eccf89fae6ee18c321c764f515c37498a24fa4309d&ipo=images",
+    },
+    {
+      title: "Meat and Chicken",
+      photo:
+        "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2%2FBeef-Meat-180x180.png&f=1&nofb=1&ipt=c2d34ec1484ec7bbfed052a6622ec70a02391707d321ba388ee47ca1b666dfe4&ipo=images",
+    },
+    {
+      title: "Sea Food",
+      photo:
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.us-east-2.amazonaws.com%2Fjms-s3-com-jms-p-pmc6%2Ftmp%2Fimage-thumbnails%2Fleadership-headshots%2Fingredients%2Fimage-thumb__303__ingredient%2Fingredients-seafood.png&f=1&nofb=1&ipt=568b7455cdf0b73c20b06ecaa863bd861e5b8922bf84e22413899f198993b5ed&ipo=images",
+    },
+    {
+      title: "Drinks",
+      photo:
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.treetop.com%2Fwp-content%2Fuploads%2F2018%2F07%2Ftree-top-juice-10oz.png&f=1&nofb=1&ipt=81e1c9800910e88ba74bd6984753226ad1b390f3c65fdee393d53e66f400a238&ipo=images",
+    },
   ],
   products: {
     Featured: {
